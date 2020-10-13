@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/specimen/Kumbh+Sans -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">  <!-- https://fontawesome.com/-->  
+    <link rel="stylesheet" href="css/magnific-popup.css">       <!-- https://dimsemenov.com/plugins/magnific-popup/ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">        <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="slick/slick.min.css">          <!-- https://kenwheeler.github.io/slick/ -->
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/templatemo-upright.css">
+
+    
+</head>
+<body>    
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Leftside bar -->
+            <div id="tm-sidebar" class="tm-sidebar" style="color: black;"> 
+                <nav class="tm-nav">
+                    <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div>
+                        <div class="tm-brand-box">
+                            <img src="img/manit.png">
+                        </div>                
+                        <ul id="tm-main-nav" >
+                            <li class="nav-item">                                
+                                <a href="#home" class="nav-link current">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-home nav-icon"></i>
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#gallery" class="nav-link">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-images nav-icon"></i>
+                                    Gallery
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#about" class="nav-link">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-user nav-icon"></i>
+                                    About
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#events" class="nav-link">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-user-friends nav-icon"></i>
+                                    Events
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-envelope nav-icon"></i>
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            
+            <div class="tm-main">
+                <!-- Home section -->
+                <div class="tm-section-wrap">
+                    <div class="tm-parallax" data-parallax="scroll" data-image-src="img/mainlogo3.png"></div>                   
+                    <section id="home" class="tm-section">
+                        <h2 class="tm-text-primary">ROTARACT CLUB MANIT</h2>
+                        <hr class="mb-5">
+                        <div class="row">
+                            
+                                    <section>
+                                      <img class="mySlides" src="img/img1.jpg" style="width:100%">
+                                      <img class="mySlides" src="img/img2.jpg" style="width:100%">
+                                      <img class="mySlides" src="img/img3.jpg" style="width:100%">
+                                    <script>
+                                    var myIndex = 0;
+                                    carousel();
+
+                                    function carousel() {
+                                      var i;
+                                      var x = document.getElementsByClassName("mySlides");
+                                      for (i = 0; i < x.length; i++) {
+                                        x[i].style.display = "none";
+                                      }
+                                      myIndex++;
+                                      if (myIndex > x.length) {myIndex = 1}
+                                      x[myIndex-1].style.display = "block";
+                                      setTimeout(carousel, 3000);
+                                    }
+                                    </script>
+                                    </section>
+                            </div><br>
+                        <div class="text-right">
+                            <a href="#gallery" class="btn btn-primary tm-btn-next">Next Page</a>
+                        </div>
+                        <hr class="tm-hr-short mb-5">
+                        <div class="row tm-row-home">                            
+                            <div class="tm-col-home tm-col-home-l">
+                                <div class="media mb-4">
+                                    <i class="fas fa-scroll fa-4x tm-post-icon tm-text-primary"></i>
+                                    <div class="media-body">
+                                        <a href="#" class="d-block mb-2 tm-text-primary tm-post-link">20 September 2020</a>  
+                                        <p>
+                                            Write One - Enlighten All You create - We Spread<br>Helping one person might not change the whole world, but it could change the world for one person.</p>
+                                    </div>                                    
+                                </div>
+                                <div class="media mb-4">
+                                    <i class="fas fa-scroll fa-4x tm-post-icon tm-text-primary"></i>
+                                    <div class="media-body">
+                                        <a href="#" class="d-block mb-2 tm-text-primary tm-post-link">15 September 2020</a>  
+                                        <p>
+                                            Blood Group Collection Drive<br>A single pint of Blood can save three lives, a single gesture can create a million smiles.
+                                        </p>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="tm-col-home mr-0 ml-auto">
+                                 <br><br><br><img src="img/aimg.jpg">             
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- Gallery section -->
+                <div class="tm-section-wrap">
+                    <div class="tm-parallax" data-parallax="scroll" data-image-src="img/abab.jpeg"></div>                   
+                    <section id="gallery" class="tm-section">
+                        <h2 class="tm-text-primary">Gallery</h2>
+                        <hr class="mb-5">
+                        <ul class="tm-gallery-links">
+                            <li>
+                                <a href="javascript:void(0);" class="active tm-gallery-link" data-filter="*">
+                                    <i class="fas fa-layer-group tm-gallery-link-icon"></i>
+                                    All
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="tm-gallery-link" data-filter="rahulnagar">
+                                    <i class="fas fa-leaf tm-gallery-link-icon"></i>
+                                    Rahul Nagar
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="tm-gallery-link" data-filter="events">
+                                    <i class="fas fa-paw tm-gallery-link-icon"></i>
+                                    Events
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="tm-gallery-link" data-filter="posters">
+                                    <i class="fas fa-scroll tm-gallery-link-icon"></i>
+                                    Posters
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tm-gallery">
+                            <figure class="effect-honey tm-gallery-item events">
+                                <img src="img/gallery/i/crimealley.jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>Crime Alley</i></h2>
+                                    <a href="img/gallery/crimealley.jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item events">
+                                <img src="img/gallery/i/divertido.jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>Divertido</i></h2>
+                                    <a href="img/gallery/divertido.jpg">View more</a>						
+                                </figcaption>			
+                            </figure>  
+                            <figure class="effect-honey tm-gallery-item events">
+                                <img src="img/gallery/i/warriorcombat.jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>Warrior Combat</i></h2>
+                                    <a href="img/gallery/warriorcombat.jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item rahulnagar">
+                                <img src="img/gallery/i/rn1.jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>Rahul Nagar</i></h2>
+                                    <a href="img/gallery/rn1.jpg">View more</a>						
+                                </figcaption>			
+                            </figure> 
+                            <figure class="effect-honey tm-gallery-item rahulnagar">
+                                <img src="img/gallery/i/rn2.jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>Rahul Nagar</i></h2>
+                                    <a href="img/gallery/rn2.jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item rahulnagar">
+                                <img src="img/gallery/i/rn3.jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>Rahul Nagar</i></h2>
+                                    <a href="img/gallery/rn3.jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item posters">
+                                <img src="img/gallery/i/a.jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>Poster</i></h2>
+                                    <a href="img/gallery/a.jpg">View more</a>						
+                                </figcaption>			
+                            </figure> 
+                            <figure class="effect-honey tm-gallery-item posters">
+                                <img src="img/gallery/i/b.jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>Poster</i></h2>
+                                    <a href="img/gallery/b.jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item posters">
+                                <img src="img/gallery/i/c.jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>Poster</i></h2>
+                                    <a href="img/gallery/c.jpg">View more</a>						
+                                </figcaption>			
+                            </figure> 
+                            <figure class="effect-honey tm-gallery-item posters">
+                                <img src="img/gallery/i/d.jpg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>Poster</i></h2>
+                                    <a href="img/gallery/d.jpg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item posters">
+                                <img src="img/gallery/i/e.jpeg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>Poster</i></h2>
+                                    <a href="img/gallery/e.jpeg">View more</a>						
+                                </figcaption>			
+                            </figure>
+                            <figure class="effect-honey tm-gallery-item posters">
+                                <img src="img/gallery/i/f.jpeg" alt="Image"/>
+                                <figcaption>
+                                    <h2><i>Poster</i></h2>
+                                    <a href="img/gallery/f.jpeg">View more</a>						
+                                </figcaption>			
+                            </figure>  
+                        </div>
+                    </section>
+                </div>
+                <!-- About section -->
+                <div class="tm-section-wrap">
+                    <div class="tm-parallax" data-parallax="scroll" data-image-src="img/gallery/i.jpg"></div>
+                    <section id="about" class="tm-section">
+                        <h2 class="tm-text-primary">About Us</h2>
+                        <hr class="mb-5">
+                        
+                        <div class="row tm-row-about">
+                            <div class="tm-col-about tm-col-about-l">
+                                <p class="mb-4">
+                            Rotaract clubs are part of a global effort to bring peace and international understanding to the world.</p>
+                                <p class="mb-4">
+                                     The purpose of Rotaract is to provide an opportunity for young men and women to enhance the knowledge and skills to address physical and social needs of the communities.
+                                </p>
+                                <p class="mb-4">
+                                    We are undergraduates of Maulana Azad National Institute of Bhopal united for a good cause.
+                                </p>
+                            </div>
+                            <div class="tm-col-about tm-col-about-r">
+                                <img src="img/gallery/e.jpg" alt="Image" class="img-fluid mb-5 tm-img-about">
+                            </div>
+                        </div>
+                        <div class="mt-5">
+                            <div class="tm-carousel">
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/volunteer.jpg" alt="Featured Item">
+                                        <figcaption>
+                                            <ul class="tm-social">
+                                                <li><a href="https://www.facebook.com/Rotaract-Club-MANIT-105187671324735/" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
+                                                <li><a href="https://www.instagram.com/__rotaract_club_manit__?r=nametag"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Volunteers</h3>
+                                        <p>The energitic tender-hearted group</p>
+                                    </div>
+                                </div>
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/event.jpg" alt="Featured Item">
+                                        <figcaption>
+                                            <ul class="tm-social">
+                                                <li><a href="https://www.facebook.com/Rotaract-Club-MANIT-105187671324735/" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
+                                                <li><a href="https://www.instagram.com/__rotaract_club_manit__?r=nametag"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Event Coordinators</h3>
+                                        <p>A group of exceptional intellects</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/media.jpg" alt="Featured Item">
+                                        <figcaption>
+                                            <ul class="tm-social">
+                                                <li><a href="https://www.facebook.com/Rotaract-Club-MANIT-105187671324735/" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
+                                                <li><a href="https://www.instagram.com/__rotaract_club_manit__?r=nametag"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Media Writers</h3>
+                                        <p>The marvellous penman group</p>
+                                    </div>
+                                </div>
+
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/webdev.jpg" alt="Featured Item">
+                                        <figcaption>
+                                            <ul class="tm-social">
+                                                <li><a href="https://www.facebook.com/Rotaract-Club-MANIT-105187671324735/" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
+                                                <li><a href="https://www.instagram.com/__rotaract_club_manit__?r=nametag"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Web developers</h3>
+                                        <p>A group of magnificent design programmers</p>
+                                    </div>
+                                </div>
+
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/designer.jpg" alt="Featured Item">
+                                        <figcaption>
+                                            <ul class="tm-social">
+                                                <li><a href="https://www.facebook.com/Rotaract-Club-MANIT-105187671324735/" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
+                                                <li><a href="https://www.instagram.com/__rotaract_club_manit__?r=nametag"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Designers</h3>
+                                        <p>A group prime skill holders</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="tm-carousel-item">
+                                    <figure class="effect-honey mb-4">
+                                        <img src="img/photographer.jpg" alt="Featured Item">
+                                        <figcaption>
+                                            <ul class="tm-social">
+                                                <li><a href="https://www.facebook.com/Rotaract-Club-MANIT-105187671324735/" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
+                                                <li><a href="https://www.instagram.com/__rotaract_club_manit__?r=nametag"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="tm-about-text">
+                                        <h3 class="mb-3 tm-text-primary tm-about-title">Photographers</h3>
+                                        <p>A group of enthusiastic lensmen</p>
+                                    </div>
+                                </div>
+
+                                
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Contact section -->
+                <div class="tm-section-wrap">
+                    <div class="tm-parallax" data-parallax="scroll" data-image-src="img/img4.jpg"></div>
+                    <div id="contact" class="tm-section">
+                        <h2 class="tm-text-primary">Contact RCM</h2>
+                        <hr class="mb-5">
+                        <div class="row">
+                            <div class="col-xl-6 tm-contact-col-l mb-4">
+                                <form id="contact-form" action="" method="POST" class="tm-contact-form">
+                                    <div class="form-group">
+                                        <input type="text" name="name" class="form-control rounded-0" placeholder="Name" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="email" class="form-control rounded-0" placeholder="Email" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea rows="8" name="message" class="form-control rounded-0" placeholder="Message" required=></textarea>
+                                    </div>
+            
+                                    <div class="form-group tm-text-right">
+                                        <button type="submit" class="btn btn-primary">Send</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-xl-6 tm-contact-col-r">
+                                <!-- Map -->
+                                <div class="mapouter mb-4">
+                                    <div class="gmap_canvas">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14667.235385275042!2d77.39969677238919!3d23.21363592830341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c42e43fe40941%3A0x10377d4af64ac6e9!2sMaulana%20Azad%20National%20Institute%20of%20Technology%2C%20Bhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1602568474848!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                            
+                                    </div>
+                                </div>
+            
+                                <!-- Address -->
+                                <address class="mb-4">
+                                    Maulana Azad National Institute of Technology<br>
+                                    Bhopal
+                                </address>
+            
+                                <!-- Links -->
+                                <ul class="tm-contact-links mb-4">
+                                    <li class="mb-2">
+                                        <a href="tel:0100200340">
+                                            <i class="fas fa-phone mr-2 tm-contact-link-icon"></i>
+                                            Tel: +91-7780414619
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:info@company.com">
+                                            <i class="fas fa-at mr-2 tm-contact-link-icon"></i>
+                                            Email: rcm2020coreteam@gmail.com
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="tm-contact-social">
+                                    <li><a href="https://fb.com/templatemo" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://youtube.com" class="tm-social-link"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Copyright -->                
+                <div class="tm-section-wrap tm-copyright row">
+                    <div class="col-12">
+                        <div class="text-right">
+                            Rotaract Club MANIT
+                        </div> 
+                    </div>
+                </div>                 
+            </div> <!-- .tm-main -->                      
+        </div> <!-- .row -->
+    </div> <!-- .container-fluid -->
+    <script src="js/jquery-3.4.1.min.js"></script>          <!-- https://jquery.com/ -->
+    <script src="js/jquery.singlePageNav.min.js"></script>  <!-- https://github.com/ChrisWojcik/single-page-nav -->
+    <script src="js/parallax/parallax.min.js"></script>     <!-- https://pixelcog.github.io/parallax.js/ -->
+    <script src="js/imagesloaded.pkgd.min.js"></script>     <!-- https://imagesloaded.desandro.com/ -->
+    <script src="js/isotope.pkgd.min.js"></script>          <!-- https://isotope.metafizzy.co/ -->
+    <script src="js/jquery.magnific-popup.min.js"></script> <!-- https://dimsemenov.com/plugins/magnific-popup/ -->
+    <script src="slick/slick.min.js"></script>              <!-- https://kenwheeler.github.io/slick/ -->
+    <script src="js/templatemo-script.js"></script>
+</body>
+</html> 
